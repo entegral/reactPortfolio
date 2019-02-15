@@ -26,6 +26,10 @@ npm install && npm run start
 
 * Navigate to [site](http://localhost:8080) in browswer 
 
+## Component Layout
+
+![component layout](./src/assets/images/layout.jpg "Initial Component Plan")
+
 ## Support and contact details
 
 Robert Bruce:
