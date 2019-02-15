@@ -4,7 +4,7 @@ import Home from './Home';
 import { Switch, Route } from 'react-router-dom';
 import FooterBar from './FooterBar';
 import EducationList from './EducationList';
-import background from '../assets/images/celia-spenard-ko-68305-unsplash.jpg';
+import background from '../assets/images/ryan-moreno-99473-unsplash.jpg';
 
 function App() {
 
@@ -15,7 +15,7 @@ function App() {
       <style jsx global>{`
         body {
           background-image: url(${background});
-          background-size: auto 100%;
+          background-size: 100%;
         }
       `}
       </style>

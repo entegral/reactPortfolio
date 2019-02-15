@@ -5,10 +5,6 @@ import { Col, Collapsible, CollapsibleItem, Row, Collection } from 'react-materi
 
 function EducationList() {
 
-  const collectionStyle = {
-    backgroundColor: 'teal',
-    color: 'white'
-  };
 
   const rowStyle = {
     marginTop: '50',
@@ -24,7 +20,7 @@ function EducationList() {
   const liStyle = {
     fontWeight: 'bold',
     fontSize: '1.15em'
-  }
+  };
 
 
   return(
