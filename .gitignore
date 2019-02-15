@@ -2,3 +2,4 @@
 node_modules
 build
 *-lock.json
+*.jpg_original
