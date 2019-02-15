@@ -37,4 +37,4 @@ React, react-hot-loader, react-router, materialize, webpack, eslint, styled-jsx,
 
 *MIT*
 
-Copyright (c) 2019 **_Alex Garcia, Ben Kirby, Daniel Bennett, Robert Bruce_**
+Copyright (c) 2019 **Robert Bruce_**
