@@ -25,8 +25,8 @@ function FooterBar(){
       className='teal page-footer'
       style={footerStyle}>
       
-      <h5 className="white-text">Footer Content</h5>
-      <p className="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+      <h5 className="white-text">Thank you for visiting my portfolio page.</h5>
+      <p className="grey-text text-lighten-4">Please check out my LinkedIn and GitHub links for more detailed information about my career qualifications and source code.</p>
     </Footer>
   );
 }
