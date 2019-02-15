@@ -24,6 +24,7 @@ function FooterBar(){
       
       <p className="white-text">Thank you for visiting my portfolio page.</p>
       <p className="grey-text text-lighten-4">Please check out my LinkedIn and GitHub links for more detailed information about my career qualifications and source code.</p>
+      <p className="grey-text text-lighten-4" >Background Photo by Celia Spenard-Ko on Unsplash</p>
     </Footer>
   );
 }

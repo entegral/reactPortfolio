@@ -1,6 +1,6 @@
 import React from 'react';
 import { Row, Col, Collection, CollectionItem } from 'react-materialize';
-import robertbruce from '../assets/images/robertbruce.jpeg';
+import robertbruce from '../assets/images/robertbruce2.jpg';
 
 function Home (){
 
@@ -8,16 +8,21 @@ function Home (){
     marginTop: '50',
   };
 
+  const imgStyle = {
+    margin: '25px 25px 0px 5px',
+    float: 'left',
+    width: '250px',
+    borderRadius: '5px'
+  };
+
   return(
     <div>
 
       <Row style={rowStyle}>
         
-        <Col s={2} className='offset-s1'>
-          <img className='circle' src={robertbruce} alt=""/>
-        </Col>
-        
-        <Col s={8}>
+        <Col s={10} className='offset-s1'>
+          <img style={imgStyle}  src={robertbruce} alt=""/>
+
 
           <Collection>
             <CollectionItem>
