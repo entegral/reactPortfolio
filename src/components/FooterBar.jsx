@@ -4,10 +4,7 @@ import { Footer } from 'react-materialize';
 function FooterBar(){
 
   const footerStyle = {
-    position:'fixed',
-    bottom:0,
-    left:0,
-    width:'100%'
+    fontSize: '0.85em'
   };
 
   return (
@@ -25,7 +22,7 @@ function FooterBar(){
       className='teal page-footer'
       style={footerStyle}>
       
-      <h5 className="white-text">Thank you for visiting my portfolio page.</h5>
+      <p className="white-text">Thank you for visiting my portfolio page.</p>
       <p className="grey-text text-lighten-4">Please check out my LinkedIn and GitHub links for more detailed information about my career qualifications and source code.</p>
     </Footer>
   );
