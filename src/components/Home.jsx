@@ -9,7 +9,7 @@ function Home (){
   };
 
   const imgStyle = {
-    margin: '25px 25px 0px 5px',
+    margin: '8px 25px 0px 5px',
     float: 'left',
     width: '250px',
     borderRadius: '5px'
@@ -22,7 +22,7 @@ function Home (){
       <Row style={rowStyle}>
         
         <Col s={10} className='offset-s1'>
-          <img style={imgStyle}  src={robertbruce} alt=""/>
+          <img style={imgStyle} className='circle'  src={robertbruce} alt=""/>
 
 
           <Collection>
