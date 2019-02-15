@@ -7,11 +7,11 @@ function App() {
   return (  
     <div>
       <Header/>
-      <hr />
+
       <Switch>
         <Route exact path='/' component={Home} />
       </Switch>
-      <hr />
+      
     </div>
   );
 }
