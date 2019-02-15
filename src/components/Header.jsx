@@ -1,5 +1,6 @@
 import React from 'react';
 import { Navbar, NavItem } from 'react-materialize';
+import { Link } from 'react-router-dom';
 
 function Header(){
   
@@ -10,7 +11,7 @@ function Header(){
   return (
     <Navbar style ={navbarStyle} brand='Robert Bruce' className='teal' right>
       <NavItem href='/'> Home </NavItem>
-      <NavItem href='/education'>Education</NavItem>
+      <NavItem href='/#/education'> Education</NavItem>
       <NavItem href='/work_experience'>Work Experience</NavItem>
     </Navbar>
   );

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Row, Col,Collection, CollectionItem } from 'react-materialize';
+import { Row, Col, Collection, CollectionItem } from 'react-materialize';
 
 
 function Home (){
