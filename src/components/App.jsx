@@ -1,8 +1,6 @@
 import React from 'react';
-import Header from './Header';
 import Home from './Home';
 import { Switch, Route } from 'react-router-dom';
-import FooterBar from './FooterBar';
 import EducationList from './EducationList';
 import background from '../assets/images/ryan-moreno-99473-unsplash.jpg';
 
@@ -16,17 +14,20 @@ function App() {
         body {
           background-image: url(${background});
           background-size: 100%;
+          display: flex;
+          min-height: 100vh;
+          flex-direction: column;
+        }
+        main {
+          flex: 1 0 auto;
         }
       `}
       </style>
-      <Header/>
       <Switch>
         <Route exact path='/' component={Home} />
         <Route exact path='/education' component={EducationList} />
       </Switch>
-      
-      <FooterBar/>
-      
+            
     </div>
   );
 }
