@@ -29,8 +29,8 @@ function Home (){
 
         <Col s={10} m={7} l={8} className='offset-s1 '>
          
-          <Card className='blue-grey darken-1' textClassName='white-text'>
-            <h4 className='text-white card-title'>About Me</h4>
+          <Card className='blue-grey darken-' textClassName='grey-text text-lighten-2'>
+            <h4 className='card-title'>About Me</h4>
             Lorem ipsum dolor sit amet, facete appareat iracundia ut vim, ex dicit regione pro, reque vitae ei nec. Ei brute scripta per, an per verterem singulis accommodare. Timeam vulputate eam et. Repudiare instructior et vis, ad has agam admodum, no sea omnesque sensibus. At eloquentiam neglegentur sit, his et omnium delectus. An nobis audiam accusamus vim, eam in deleniti scaevola molestiae.
 
             Et nostro audiam mel, eos malis tation commune ei. Ei alterum mentitum eos, ea elit alterum scaevola ius. Tollit verterem abhorreant no eam, ferri aliquando referrentur ex qui. Sea ne ocurreret reprehendunt. Posse dictas interpretaris mel ex, vidit legimus cu his, dolorum accusam detraxit no mei. Mei augue scripta ea.
@@ -46,8 +46,8 @@ function Home (){
       <Row>
         <Col s={10} m={10} l={10} className='offset-s1 offset-m1 offset-l1'>
 
-          <Card className='blue-grey darken-1' textClassName='white-text' title=''>
-            <h4 className='text-white card-title'>Portfolio Piece</h4>
+          <Card className='blue-grey darken-1' textClassName='grey-text text-lighten-2' title=''>
+            <h4 className='card-title'>Portfolio Piece</h4>
 
               Lorem ipsum dolor sit amet, facete appareat iracundia ut vim, ex dicit regione pro, reque vitae ei nec. Ei brute scripta per, an per verterem singulis accommodare. Timeam vulputate eam et. Repudiare instructior et vis, ad has agam admodum, no sea omnesque sensibus. At eloquentiam neglegentur sit, his et omnium delectus. An nobis audiam accusamus vim, eam in deleniti scaevola molestiae.
 
