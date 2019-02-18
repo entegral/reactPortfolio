@@ -23,11 +23,11 @@ function Home (){
       
       <Row style={rowStyle}>
         
-        <Col s={6} m={3} l={2} className='offset-s3 offset-m1 offset-l1'>
+        <Col s={6} l={2} className='offset-s3 offset-l1'>
           <img style={imgStyle} className='circle'  src={robertbruce} alt=""/>
         </Col>
 
-        <Col s={10} m={7} l={8} className='offset-s1 '>
+        <Col s={6} l={8} className='offset-s3 '>
          
           <Card className='blue-grey darken-' textClassName='grey-text text-lighten-2'>
             <h4 className='card-title'>About Me</h4>
@@ -44,7 +44,7 @@ function Home (){
       </Row>
 
       <Row>
-        <Col s={10} m={10} l={10} className='offset-s1 offset-m1 offset-l1'>
+        <Col s={6} l={10} className='offset-s3 offset-l1'>
 
           <Card className='blue-grey darken-1' textClassName='grey-text text-lighten-2' title=''>
             <h4 className='card-title'>Portfolio Piece</h4>

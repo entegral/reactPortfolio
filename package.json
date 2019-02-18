@@ -7,7 +7,8 @@
     "test": "test",
     "start": "node_modules/.bin/webpack-dev-server",
     "lint": "node_modules/.bin/eslint src/** src/**/**; exit 0",
-    "fix": "eslint src/** src/**/** --fix; exit 0"
+    "fix": "eslint src/** src/**/** --fix; exit 0",
+    "build": "node_modules/.bin/webpack --env=prod"
   },
   "repository": {
     "type": "git",
@@ -20,6 +21,8 @@
   },
   "homepage": "https://github.com/entegral/reactJsTemplate#readme",
   "dependencies": {
+    "firebase": "^5.8.3",
+    "firebase-tools": "^6.3.1",
     "prop-types": "^15.5.10",
     "react": "^16.8.2",
     "react-dom": "^16.8.2",
