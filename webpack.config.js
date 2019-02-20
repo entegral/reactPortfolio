@@ -6,9 +6,6 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 module.exports = {
 
   entry: [
-    'react-hot-loader/patch',
-    'webpack-dev-server/client?http://localhost:8080',
-    'webpack/hot/only-dev-server',
     resolve(__dirname, 'src', 'index.jsx')
   ],
 
@@ -25,7 +22,6 @@ module.exports = {
   devtool: '#source-map',
 
   devServer: {
-    hot: true,
     contentBase: resolve(__dirname, 'build'),
     publicPath: '/'
   },
@@ -64,7 +60,6 @@ module.exports = {
             'react',
           ],
           plugins: [
-            'react-hot-loader/babel',
             'styled-jsx/babel'
           ]
         }
@@ -72,13 +67,6 @@ module.exports = {
   },
 
   plugins: [
-    new webpack.HotModuleReplacementPlugin(),
     new webpack.NamedModulesPlugin(),
-    new HtmlWebpackPlugin({
-      template: 'template.ejs',
-      appMountId: 'react-app-root',
-      title: 'Robert Bruce',
-      filename: resolve(__dirname, 'build', 'index.html'),
-    }),
   ]
 };
