@@ -24,11 +24,11 @@ git clone https://github.com/entegral/reactPortfolio.git
 npm install && npm run start
 ```
 
-* Navigate to [site](http://localhost:8080) in browswer 
+* Navigate to [site](http://rwbworks.firebaseapp.com) in browswer 
 
 ## Component Layout
 
-![component layout](./src/assets/images/layout.jpg "Initial Component Plan")
+![component layout](./src/assets/images/reactProfileComponentLayout2.jpg "Initial Component Plan")
 
 ## Support and contact details
 

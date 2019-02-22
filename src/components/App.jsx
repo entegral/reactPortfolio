@@ -2,7 +2,7 @@ import React from 'react';
 import Home from './Home';
 import { Switch, Route } from 'react-router-dom';
 import EducationList from './EducationList';
-import background from '../assets/images/ryan-moreno-99473-unsplash.jpg';
+import background from '../assets/images/asfalt-light.png';
 
 function App() {
 
@@ -13,7 +13,8 @@ function App() {
       <style jsx global>{`
         body {
           background-image: url(${background});
-          background-size: 100%;
+          background-color: #222;
+          background-size: 33%;
           display: flex;
           min-height: 100vh;
           flex-direction: column;
