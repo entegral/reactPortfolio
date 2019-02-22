@@ -2,12 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 
-function BioSection ({ title, text }){
-
-  const titleStyle = {
-    color: '#d0d0d0'
-
-  };
+function BioSection ({ text }){
 
   const textStyle = {
     color: '#d0d0d0',

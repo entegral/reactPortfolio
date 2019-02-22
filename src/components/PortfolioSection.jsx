@@ -1,7 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import Project from './Project';
-import { Collapsible, Row } from 'react-materialize';
+import { Collapsible, CollapsibleItem, Row } from 'react-materialize';
 
 function PortfolioSection ({ projectList }){
 
@@ -9,7 +8,9 @@ function PortfolioSection ({ projectList }){
   };
 
   const headerStyle = {
-    marginTop: '0px',
+    marginTop: '100px',
+    textAlign: 'center',
+    
     color: '#d0d0d0'
   };
 
@@ -22,12 +23,13 @@ function PortfolioSection ({ projectList }){
       <h4 className='card-title'
         style={headerStyle} >Portfolio Overview</h4>
       <Collapsible style={dropdownStyle} popout >
-        {projectList.map((project)=>
-          <Project title={project.title}
-            description={project.description}
-            link={project.link}
-            iconCode={project.icon_code} />
+        {projectList.map((project, index)=>
+          <CollapsibleItem className='white' header={project.title} icon={project.icon_code} key={index}>
+            <p> {project.description} </p>
+            <a href={project.link}>GitHub</a>
+          </CollapsibleItem>
         )}
+        
       </Collapsible>
     </Row>
   );
