@@ -5,12 +5,10 @@ import { CollapsibleItem } from 'react-materialize';
 function Project({ title, description, link, iconCode }){
 
   return (
-    <CollapsibleItem className='grey lighten-2' header={title} icon={iconCode}>
+    <CollapsibleItem className='white' header={title} icon={iconCode}>
       <p> {description} </p>
       <a href={link}>GitHub</a>
     </CollapsibleItem>
-
-    
   );
 }
 

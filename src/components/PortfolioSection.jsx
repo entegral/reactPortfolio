@@ -2,12 +2,12 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Project from './Project';
 import { Collapsible } from 'react-materialize';
-import Card from 'react-materialize/lib/Card';
 
 function PortfolioSection ({ projectList }){
 
   const headerStyle = {
-    marginTop: '-10px'
+    marginTop: '0px',
+    color: '#d0d0d0'
   };
 
   const dropdownStyle = {
@@ -15,9 +15,8 @@ function PortfolioSection ({ projectList }){
   };
 
   return (
-
-    <Card className='blue-grey darken-1' >
-      <h4 className='card-title grey-text text-lighten-2'
+    <React.Fragment>
+      <h4 className='card-title'
         style={headerStyle} >Portfolio Overview</h4>
       <Collapsible style={dropdownStyle} popout >
         {projectList.map((project)=>
@@ -27,7 +26,7 @@ function PortfolioSection ({ projectList }){
             iconCode={project.icon_code} />
         )}
       </Collapsible>
-    </Card>
+    </React.Fragment>
   );
 }
 

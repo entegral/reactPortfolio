@@ -1,5 +1,5 @@
 import React from 'react';
-import { Row, Col, Card } from 'react-materialize';
+import { Row, Col } from 'react-materialize';
 import robertbruce from '../assets/images/robertbruce2.jpg';
 import BioSection from './BioSection';
 import bioData from '../assets/bioData';
@@ -9,7 +9,6 @@ class BioList extends React.Component {
 
   constructor(props){
     super(props);
-    console.log(bioData);
     this.state = {
       aboutMe: bioData.aboutMe,
       projects: bioData.projects

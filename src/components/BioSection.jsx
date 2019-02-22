@@ -5,16 +5,26 @@ import { Card } from 'react-materialize';
 
 function BioSection ({ title, text }){
 
+  const componentStyle = {
+    marginLeft: '15px'
+  };
+
   const titleStyle = {
-    marginTop: '-10px'
+    color: '#d0d0d0'
+
+  };
+
+  const textStyle = {
+    color: '#d0d0d0'
   };
 
   return(
-    <Card className='blue-grey darken-1' textClassName='grey-text text-lighten-2'>
+    <div style={componentStyle}>
       <h4 style={titleStyle} className='card-title'>{ title }</h4>
-      { text }
-    </Card>
-
+      <div className='transparent' style={textStyle}>
+        { text }
+      </div>
+    </div>
   );
 }
 
