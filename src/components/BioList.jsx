@@ -8,8 +8,9 @@ class BioList extends React.Component {
 
   constructor(props){
     super(props);
+    console.log(bioData);
     this.state = {
-      aboutMe: bioData,
+      aboutMe: bioData.aboutMe,
     };
   }
   
