@@ -1,5 +1,5 @@
 import React from 'react';
-import Home from './Home';
+import BioList from './BioList';
 import { Switch, Route } from 'react-router-dom';
 import EducationList from './EducationList';
 import background from '../assets/images/asfalt-light.png';
@@ -25,7 +25,7 @@ function App() {
       `}
       </style>
       <Switch>
-        <Route exact path='/' component={Home} />
+        <Route exact path='/' component={BioList} />
         <Route exact path='/education' component={EducationList} />
       </Switch>
             
