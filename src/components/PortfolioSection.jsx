@@ -1,9 +1,12 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import Project from './Project';
-import { Collapsible } from 'react-materialize';
+import { Collapsible, Row } from 'react-materialize';
 
 function PortfolioSection ({ projectList }){
+
+  const componentStyle = {
+  };
 
   const headerStyle = {
     marginTop: '0px',
@@ -15,7 +18,7 @@ function PortfolioSection ({ projectList }){
   };
 
   return (
-    <React.Fragment>
+    <Row style={componentStyle}>
       <h4 className='card-title'
         style={headerStyle} >Portfolio Overview</h4>
       <Collapsible style={dropdownStyle} popout >
@@ -26,7 +29,7 @@ function PortfolioSection ({ projectList }){
             iconCode={project.icon_code} />
         )}
       </Collapsible>
-    </React.Fragment>
+    </Row>
   );
 }
 

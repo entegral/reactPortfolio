@@ -1,5 +1,5 @@
 import React from 'react';
-import { Row, Col } from 'react-materialize';
+import { Row, Col, Card } from 'react-materialize';
 import robertbruce from '../assets/images/robertbruce2.jpg';
 import BioSection from './BioSection';
 import bioData from '../assets/bioData';
@@ -35,7 +35,7 @@ class BioList extends React.Component {
         <Row style={rowStyle}>
           
           <Col s={6} l={2} className='offset-s3 offset-l1'>
-            <img style={imgStyle} className='circle'  src={robertbruce} alt=""/>
+            <img style={imgStyle}  src={robertbruce} alt=""/>
           </Col>
 
           <Col s={6} l={8} className='offset-s3 '>

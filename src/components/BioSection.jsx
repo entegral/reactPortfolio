@@ -1,13 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { Card } from 'react-materialize';
 
 
 function BioSection ({ title, text }){
-
-  const componentStyle = {
-    marginLeft: '15px'
-  };
 
   const titleStyle = {
     color: '#d0d0d0'
@@ -15,12 +10,14 @@ function BioSection ({ title, text }){
   };
 
   const textStyle = {
-    color: '#d0d0d0'
+    color: '#d0d0d0',
+    marginTop: '25px',
+    textAlign: 'justify',
+    textJustify: 'inter-word'
   };
 
   return(
-    <div style={componentStyle}>
-      <h4 style={titleStyle} className='card-title'>{ title }</h4>
+    <div>
       <div className='transparent' style={textStyle}>
         { text }
       </div>
