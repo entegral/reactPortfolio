@@ -23,8 +23,7 @@ function FooterBar(){
       style={footerStyle}>
       
       <p className="grey-text text-lighten-2">Thank you for visiting my portfolio page.</p>
-      <p className="grey-text text-lighten-2">Please check out my LinkedIn and GitHub links for more detailed information about my career qualifications and source code.</p>
-      <p className="grey-text text-lighten-2" >Background Photo by Ryan Moreno on Unsplash</p>
+      <p className="grey-text text-lighten-2">Please check out my LinkedIn and GitHub links for more detailed information about my career qualifications and portfolio source code.</p>
     </Footer>
   );
 }

@@ -35,7 +35,7 @@ function EducationList() {
   return(
     <div>
       <Row style={rowStyle}>
-        <Col s={6} className='offset-s3'>
+        <Col s={12} m={8} l={6} className='offset-m2 offset-l3'>
 
           <h4 style={headerStyle}>Industry Specific Education</h4>
           <Collapsible popout>
@@ -83,7 +83,7 @@ function EducationList() {
       </Row>
 
       <Row style={rowStyle}>
-        <Col s={6} className='offset-s3'>
+        <Col s={12} m={8} l={6} className='offset-m2 offset-l3'>
 
           <h4 style={headerStyle}>Undergraduate Education</h4>
             
