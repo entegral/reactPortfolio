@@ -33,11 +33,11 @@ class BioList extends React.Component {
         
         <Row style={rowStyle}>
           
-          <Col s={6} l={2} className='offset-s3 offset-l1'>
+          <Col s={2} l={2} className='offset-s5 offset-l1'>
             <img style={imgStyle}  src={robertbruce} alt=""/>
           </Col>
 
-          <Col s={6} l={8} className='offset-s3 '>
+          <Col s={10} l={8} className='offset-s1 '>
             <BioSection title={this.state.aboutMe.title} 
               text={this.state.aboutMe.text} />
           </Col>
@@ -45,7 +45,7 @@ class BioList extends React.Component {
         </Row>
 
         <Row>
-          <Col s={6} l={10} className='offset-s3 offset-l1'>
+          <Col s={10} l={10} className='offset-s1 offset-l1'>
 
             <PortfolioSection projectList={this.state.projects} />
           
