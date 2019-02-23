@@ -33,4 +33,42 @@ const projects = [
   },
 ];
 
-export default {projects, aboutMe};
+const workExperience = [
+  {
+    company: 'Genentech',
+    job_title: 'Aseptic Manufacturing Technician',
+    dates: 'July 2015 - July 2018',
+    details: [
+      '• Implemented two novel VBA Excel macros that resulted in a 13% reduction in time spent on tedious administrative tasks such involving inventory reconciliation and production-yield reporting.',
+      '• Operated the following aseptic manufacturing equipment through groundbreaking 4 and 5 run campaigns: Skan Isolators/Filling equipment, Wilco Trayloader, Garvey Conveyors, Skan Vial Cappers and Skan Vial Washers.',
+      '• Responsible for changeover and maintenance of the equipment between campaigns. I worked alongside the on-call Specialist Mechanic performing operations, changeover, and cleaning activities for over 18 months.'
+    ]
+  },
+  {
+    company: '45 Technologies',
+    job_title: 'Co-founder',
+    dates: 'April 2014 - Present',
+    details: [
+      'Co-founded a startup and prototyped a fully-automated, self-adjusting, environmentally isolated horticulture management system with comprehensive environmental data logging:',
+      '• Atmospheric monitoring and dosing of CO2',
+      '• Temperature/Humidity control',
+      '• Water; dissolved O2 levels, temperature control, maintaining sterility',
+      '• Nutrient monitoring; real time monitoring/dosing through use of electrical conductivity, pH, and temperature.',
+      '• Lighting; spectrum, power and flux requirements',
+      '• Product assembly',
+      '• Troubleshooting, maintenance and improvement.',
+      '• Processing relevant baseline data, for use as a starting point for identifying optimal growing conditions of various species of plants.'
+    ]
+  },
+  {
+    company: 'Intel',
+    job_title: 'Engineering Technician',
+    dates: 'May 2011 - March 2014',
+    details: [
+      '• Prepared, tested, analyzed and reported metrology data collected through the use of atomic force microscopy, nanoindentation, film stress/wafer bow, and 4 point bend delamination.',
+      '• Tested and analyzed many of the materials used in the manufacturing of integrated circuits. For example, solid - state surface analysis by use of Total Reflection X-ray Fluorescence(TXRF) was used to detect contaminates in silicon sources, and acid / base / complexometric titrations were performed to verify the composition of various hazardous etch chemicals.',
+    ]
+  },
+];
+
+export default {projects, aboutMe, workExperience};

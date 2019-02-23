@@ -2,6 +2,7 @@ import React from 'react';
 import BioList from './BioList';
 import { Switch, Route } from 'react-router-dom';
 import EducationList from './EducationList';
+import WorkList from './WorkList';
 import background from '../assets/images/asfalt-light.png';
 
 function App() {
@@ -27,6 +28,8 @@ function App() {
       <Switch>
         <Route exact path='/' component={BioList} />
         <Route exact path='/education' component={EducationList} />
+        <Route exact path='/work_experience' component={WorkList} />
+
       </Switch>
             
     </div>
