@@ -8,7 +8,7 @@
 
 ### To view this portfolio
 
-* navigate to my [deployed page](rwbworks.firebaseapp.com)
+* navigate to my [deployed page](https://rwbworks.firebaseapp.com)
 
 ### To use source code as template for your own profile page
 
